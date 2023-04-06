@@ -20,6 +20,9 @@ head(flights_Mnt_year)
 #flights in all months except for June
 months_notJ =filter(df_Flights, month != 'June')
 View(months_notMJ)
+
+#for numerical >, <, ==
+filter(df_Flights, passengers<=120)
 #++++++++++++++++++++++++++++++++++++++++#
 
 #select
